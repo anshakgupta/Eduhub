@@ -808,17 +808,20 @@ footer .grid{
             .section-hero--image{
                 order: 1;
                 display: flex;
-                align-items: center;
                 justify-content: center;
 
                 figure{
                     width: 50%;
+                    img{
+                        width: 20rem;
+                    }
                 }
 
             }
 
         }
     }
+    
 
     footer .grid-four--cols{
         grid-template-columns: repeat(3,minmax(100px,1fr));
