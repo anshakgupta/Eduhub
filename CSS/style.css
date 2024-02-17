@@ -368,6 +368,18 @@
     color: #1450a3;
     background-color: #dce9fa;
   }
+
+  .section-course .icon .fa-brands {
+    padding: 2.4rem;
+    background-color: var(--supporting-color);
+    font-size: 2.4rem;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    color: var(--hero-heading-color);
+  }
   
   /***** End course Section *****/
   
