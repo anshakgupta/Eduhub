@@ -3,15 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>contact page</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Jost:wght@300;400;500;700&family=Poppins:wght@200;300;400;600&family=Quicksand:wght@300;400;500;600;700&family=Urbanist:wght@300;400;500;600;700;800;900&display=swap"
-      rel="stylesheet"
-    />
-
+    <title>Services EDUHUB</title>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
@@ -20,15 +12,7 @@
       referrerpolicy="no-referrer"
     />
 
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-
     <link rel="stylesheet" href="css/style.css" />
-
-    <style>
-      footer {
-        padding-top: 0;
-      }
-    </style>
   </head>
   <body>
     <!-- ========== Start NAVBAR Section ========== -->
@@ -68,87 +52,91 @@
 
     <!-- ========== End NAVBAR Section ========== -->
 
-    <!-- ========== Start contact Section ========== -->
-
-    <div class="section-contact">
+    <!-- ========== Start courses Section ========== -->
+    <section class="section-course">
       <div class="container">
-        <h2 class="section-common-heading">Contact Us</h2>
+        <h2 class="section-common-heading">Explore Our Courses</h2>
         <p class="section-common-subheading">
-          Get in touch with us. We are always here to help you.
+          Discover a variety of courses across different categories.
         </p>
       </div>
 
-      <div class="container grid grid-two--cols">
-        <div class="contact-content">
-          <form action="https://formspree.io/f/mjvnyoav" method="POST"> 
-            <div class="grid grid-two--cols mb-3">
-              <div>
-                <label for="username">username</label>
-                <input
-                  type="text"
-                  name="username"
-                  id="username"
-                  required
-                  autocomplete="off"
-                  placeholder="Enter your name"
-                />
-              </div>
-
-              <div>
-                <label for="email">email</label>
-                <input
-                  type="email"
-                  name="email"
-                  id="email"
-                  autocomplete="off"
-                  required
-                  placeholder="abc@gmail.com"
-                />
-              </div>
-            </div>
-
-            <div class="mb-3">
-              <label for="subject">subject</label>
-              <input
-                type="text"
-                name="subject"
-                id="subject"
-                placeholder="Your main title"
-              />
-            </div>
-
-            <div class="mb-3">
-              <label for="message">message</label>
-              <textarea
-                name="message"
-                id="message"
-                cols="30"
-                rows="10"
-                placeholder="Enter your message"
-              ></textarea>
-            </div>
-
-            <div>
-              <button type="submit" class="btn btn-submit">send message</button>
-            </div>
-          </form>
+      <div class="container grid grid-four--cols">
+        <div class="course-div">
+          <div class="icon">
+            <!-- <i class="fa-brands fa-js"></i> -->
+            <i class="fa-solid fa-code"></i>
+          </div>
+          <h3 class="section-common--title">JS Development</h3>
+          <p>
+            Creating dynamic, interactive web applications for user engagement.
+          </p>
         </div>
 
-        <div class="contact-map">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d121059.04711144073!2d73.78056582336797!3d18.524598599672156!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2bf2e67461101%3A0x828d43bf9d9ee343!2sPune%2C%20Maharashtra!5e0!3m2!1sen!2sin!4v1696220815737!5m2!1sen!2sin"
-            width="100%"
-            height="500px"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-          ></iframe>
+        <div class="course-div">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3 class="section-common--title">Python</h3>
+          <p>
+            Versatile language for problem-solving and application development.
+          </p>
+        </div>
+
+        <div class="course-div">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3 class="section-common--title">c++ Development</h3>
+          <p>Powerful, efficient coding language for software development.</p>
+        </div>
+
+        <div class="course-div">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3 class="section-common--title">Java Development</h3>
+          <p>Cross-platform application development with Java programming.</p>
+        </div>
+
+        <div class="course-div">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3 class="section-common--title">SQL Development</h3>
+          <p>
+            Effective data management and retrieval using SQL database language.
+          </p>
+        </div>
+
+        <div class="course-div">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3 class="section-common--title">HTML Development</h3>
+          <p>Web content structure with essential markup language.</p>
+        </div>
+
+        <div class="course-div">
+          <div class="icon"><i class="fa-solid fa-laptop-code"></i></div>
+          <h3 class="section-common--title">CSS Development</h3>
+          <p>Styling web elements for visually appealing websites.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ========== End courses Section ========== -->
+
+    <!-- ========== Start contact home Section ========== -->
+
+    <div class="section-contact--homepage" id="section-contact--homepage">
+      <div class="container grid grid-two--cols">
+        <div class="contact-content">
+          <h2 class="contact-title">Let's revolutionize the way you study</h2>
+          <p>Join our free bootcamps to know us better</p>
+          <div class="btn">
+            <a href="contact.html">
+              start now <i class="fa-solid fa-arrow-circle-right"></i>
+            </a>
+          </div>
+        </div>
+        <div class="contact-image">
+          <img src="images/main.png" alt="a guy doing coding" />
         </div>
       </div>
     </div>
 
-    <!-- ========== End contact Section ========== -->
+    <!-- ========== End contact home Section ========== -->
 
     <!-- ========== Start   FOOTER Section ========== -->
 
