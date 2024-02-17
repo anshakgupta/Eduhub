@@ -10,8 +10,8 @@
   html {
     font-size: 62.5%;
     /* 1rem = 10px  */
-    /* scroll-behavior: smooth; */
-    /* scroll-snap-type: Y proximity; */
+    scroll-behavior: smooth;
+    scroll-snap-type: Y proximity;
   }
   
   h1,
@@ -176,7 +176,7 @@
   .section-navbar .navbar ul {
     display: flex;
     gap: 3.2rem;
-    /* text-transform: capitalize; */
+    text-transform: capitalize;
   
     & li a {
       color: var(--heading-color);
