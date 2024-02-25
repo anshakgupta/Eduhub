@@ -380,6 +380,9 @@
     -o-border-radius: 50%;
     color: var(--hero-heading-color);
   }
+  .section-course .course-div .section-common--title{
+    color: black;
+  }
   
   /***** End course Section *****/
   
@@ -536,6 +539,9 @@
     & .section-common--title {
       margin-top: 0.8rem;
     }
+  }
+  .section-blog .blog .section-common--title{
+    color: black
   }
   
   /***** End blog Section *****/
