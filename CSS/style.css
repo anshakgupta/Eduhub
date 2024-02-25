@@ -735,6 +735,9 @@
     rotate: 360deg;
   
   }
+  footer .footer-4--div li{
+    cursor: pointer;
+  }
   
   /***** End footer Section *****/
   
